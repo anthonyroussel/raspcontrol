@@ -82,12 +82,12 @@ function shell_to_html_table_result($shellExecOutput) {
     <title>Raspcontrol</title>
     <meta name="author" content="Nicolas Devenet" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/raspcontrol/favicon.ico" />
-    <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/raspcontrol/favicon.ico" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-    <link href="/assets/css/raspcontrol.css" rel="stylesheet" media="screen" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="assets/css/raspcontrol.css" rel="stylesheet" media="screen" />
   </head>
 
   <body>
@@ -95,7 +95,7 @@ function shell_to_html_table_result($shellExecOutput) {
 		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="<?= INDEX; ?>"><img src="/assets/img/raspcontrol/raspcontrol-icon.png" alt="rbpi" /> Raspcontrol - the Raspberry Pi Control Center</a>
+					<a class="navbar-brand" href="<?= INDEX; ?>"><img src="assets/img/raspcontrol/raspcontrol-icon.png" alt="rbpi" /> Raspcontrol - the Raspberry Pi Control Center</a>
 				</div>
 			</div>
 		</div>
@@ -224,8 +224,8 @@ function shell_to_html_table_result($shellExecOutput) {
 
     </div> <!-- /content -->
 		
-		<script src="/assets/js/jquery-2.1.3.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-		<script src="/assets/js/details.js"></script>
+		<script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/details.js"></script>
   </body>
 </html>
